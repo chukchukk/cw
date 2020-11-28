@@ -78,6 +78,10 @@
 #buy_prod input[type="button"]:focus{
     outline: none;
 }
+#buy_prod input[type="button"]:active{
+    transform: scale(0.85);
+    transition: .1s linear;
+}
 
 .main_title{
     text-align: center;
