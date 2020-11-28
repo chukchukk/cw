@@ -1,5 +1,9 @@
 @import url("main_style.css");
 
+.drop-button:hover toProduct{
+  display: none;
+}
+
 .side_bar {
   height: 100%; 
   width: 0; 
