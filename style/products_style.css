@@ -166,7 +166,7 @@ background: linear-gradient(132deg, rgba(39,51,136,0.40129555240064774) 6%, rgba
   height: 15%;
   position: absolute;
   opacity: 0;
-  transition: .5s all; 
+  transition: .1s all;
   bottom: 0;
   right: 0;
   border-radius: 50%;
@@ -189,6 +189,14 @@ background: linear-gradient(132deg, rgba(39,51,136,0.40129555240064774) 6%, rgba
   box-shadow:0px 6px 0px 0px rgba(0,0,0,0.73);
 -webkit-box-shadow:0px 6px 0px 0px rgba(0,0,0,0.73);
 -moz-box-shadow:0px 6px 0px 0px rgba(0,0,0,0.73);
+  cursor: pointer;
+}
+.buy_btn:active{
+  transform: scale(0.75);
+  box-shadow:0px 6px 0px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow:0px 6px 0px 0px rgba(0,0,0,1);
+  -moz-box-shadow:0px 6px 0px 0px rgba(0,0,0,1);
+  background-color: rgba(63, 253, 0, 1);
   cursor: pointer;
 }
 @keyframes appearance {
