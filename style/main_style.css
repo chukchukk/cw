@@ -532,6 +532,7 @@ h1{
   text-decoration: none;
   font-size: 17px;
   transition: .35s ease;
+  line-height: 2em;
 }
 
 .active_p {
@@ -548,8 +549,7 @@ h1{
   overflow: hidden;
 }
 .drop-button{
-  height: 35px;
-  text-align: center;
+  height: 65px;
 }
 
 .dropDownList .drop-button {
@@ -631,15 +631,19 @@ h1{
   float: none;
   display: block;
   text-align: left;
+  line-height: 2em;
 }
 .header.response .dropDownList {float: none;}
 .header.response .dropDownList-content {position: relative;}
 .header.response .dropDownList .drop-button {
   display: block;
   width: 100%;
-  text-align: left;
+
   padding: 15px 15px;
+  text-align: left;
   height: 65px;
+  line-height: 0;
+  vertical-align: top;
 }
 }
 
