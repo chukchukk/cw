@@ -547,6 +547,9 @@ h1{
   float: right;
   overflow: hidden;
 }
+.drop-button{
+  height: 65px;
+}
 
 .dropDownList .drop-button {
   font-size: 17px;
