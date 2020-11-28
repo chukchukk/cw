@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>Fiction</title>
+<link rel="stylesheet" href="../style/products_style.css" media="handheld, screen" type="text/css">
+</head>
+<body>
+  <script src="../js/topNavigaton.js"> </script>
+  <div class="header" id="headerAction">
+    <a class="imgTop" href="../index.html#main" name="main"><img src="../resorces/logo.png"></a>
+    <div>
+    <a href="../index.html#main" class="active_p">Главная</a>
+    <a href="#">О нас</a>
+    <a href="#">Contact</a>
+    <div class="dropDownList">
+      <button class="drop-button">Книги</button>
+      <div class="dropDownList-content">
+        <a href="fiction_first.html">Художественная литература</a>      
+        <a href="nonfiction_literature_first.html">Нехудожественная литература</a>
+        <a href="children_lit_first.html">Детская литература</a>
+        <a href="hobby_first.html">Хобби. Досуг</a>
+      </div>
+    </div>
+    <a href="delivery.html">Доставка</a>
+    <a href="cart.html">Корзина</a>
+    <a href="javascript:void(0);" class="adaptiv-button" onclick="myFunction()">&#9776;</a>
+  </div>
+  
+</div>
+<a class="back_to_top">↑</a>
+<script type="text/javascript" src="../js/toTop.js"></script>
+
+<div class="main_content">
+  <script src="../js/sideNav.js"></script>
+  <span class="open_bar" onclick="openNavigation()">&#9776;</span>
+  <div id="mySidenav" class="side_bar">
+    <a href="javascript:void(0)" class="close_bar" onclick="closeNavigation()">&times;</a>
+    <a href="military.html">Военное дело</a>
+    <a href="history.html">История</a>
+    <a href="medicine.html">Медицина</a>
+  </div>
+  <div class="product_container">
+    <div class="product">
+        <div class="product_inside">
+          <img src="../resorces/medicine/corona.jpg" alt="Изображение" height="80%" width="100%">
+          <span class="author_prod">Прокопенко И. С.</span>
+          <span class="title_prod">Коронавирус. Вирус-убийца</span>
+          <span class="price_prod">200 р.</span>
+          <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="68">
+          <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="68">
+        </div>
+      </div>
+<div class="product">
+        <div class="product_inside">
+          <img src="../resorces/military/memoriesJukov.jpg" alt="Изображение" height="80%" width="100%">
+          <span class="author_prod">Жуков Г. К.</span>
+          <span class="title_prod">Воспоминания и размышления</span>
+          <span class="price_prod">800 р.</span>
+          <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="44">
+          <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="44">
+        </div>
+      </div>
+<div class="product">
+        <div class="product_inside">
+          <img src="../resorces/history/enchantingFrance.jpg" alt="Изображение" height="80%" width="100%">
+          <span class="author_prod">Басовская Н. И.</span>
+          <span class="title_prod">Фееричная Франция</span>
+          <span class="price_prod">400 р.</span>
+          <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="56">
+          <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="56">
+        </div>
+      </div>
+<div class="product">
+        <div class="product_inside">
+          <img src="../resorces/medicine/longlive.jpg" alt="Изображение" height="80%" width="100%">
+          <span class="author_prod">Хавинсон В. Х.</span>
+          <span class="title_prod">Секреты долгой жизни</span>
+          <span class="price_prod">425 р.</span>
+          <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="69">
+          <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="69">
+        </div>
+      </div>
+<div class="product">
+        <div class="product_inside">
+          <img src="../resorces/military/karfagen.jpg" alt="Изображение" height="80%" width="100%">
+          <span class="author_prod">Банников А. В.</span>
+          <span class="title_prod">Как сражался Карфаген</span>
+          <span class="price_prod">670 р.</span>
+          <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="45">
+          <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="45">
+        </div>
+      </div>
+<div class="product">
+        <div class="product_inside">
+          <img src="../resorces/history/runes.jpg" alt="Изображение" height="80%" width="100%">
+          <span class="author_prod">Валецкий О. В.</span>
+          <span class="title_prod">О рунах и древних цивилизациях</span>
+          <span class="price_prod">305 р.</span>
+          <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="57">
+          <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="57">
+        </div>
+      </div>
+<div class="product">
+        <div class="product_inside">
+          <img src="../resorces/medicine/tooth.jpg" alt="Изображение" height="80%" width="100%">
+          <span class="author_prod">Яспер А.</span>
+          <span class="title_prod">Зубы. Как у вас дела?</span>
+          <span class="price_prod">270 р.</span>
+          <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="70">
+          <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="70">
+        </div>
+      </div>
+<div class="product">
+        <div class="product_inside">
+          <img src="../resorces/military/principlesofwar.jpg" alt="Изображение" height="80%" width="100%">
+          <span class="author_prod">Клаузевиц К. фон</span>
+          <span class="title_prod">Принципы ведения войны</span>
+          <span class="price_prod">320 р.</span>
+          <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="46">
+          <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="46">
+        </div>
+      </div>
+<div class="product">
+        <div class="product_inside">
+          <img src="../resorces/history/vietnam.jpg" alt="Изображение" height="80%" width="100%">
+          <span class="author_prod">Хейстингс М.</span>
+          <span class="title_prod">Вьетнам. История трагедии</span>
+          <span class="price_prod">1100 р.</span>
+          <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="58">
+          <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="58">
+        </div>
+      </div>
+<div class="product">
+        <div class="product_inside">
+          <img src="../resorces/medicine/childbirth.jpg" alt="Изображение" height="80%" width="100%">
+          <span class="author_prod">Хилл М.</span>
+          <span class="title_prod">О родах — позитивно</span>
+          <span class="price_prod">780 р.</span>
+          <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="71">
+          <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="71">
+        </div>
+      </div>
+<div class="product">
+        <div class="product_inside">
+          <img src="../resorces/military/pilots.jpg" alt="Изображение" height="80%" width="100%">
+          <span class="author_prod">Белорусова А.</span>
+          <span class="title_prod">Летчики особого назначения</span>
+          <span class="price_prod">500 р.</span>
+          <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="47">
+          <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="47">
+        </div>
+      </div>
+<div class="product">
+        <div class="product_inside">
+          <img src="../resorces/history/poland.jpg" alt="Изображение" height="80%" width="100%">
+          <span class="author_prod">Гречена Е.</span>
+          <span class="title_prod">Польша. Полная история страны</span>
+          <span class="price_prod">425 р.</span>
+          <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="59">
+          <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="59">
+        </div>
+      </div>
+
+  </div>
+  
+  <div class="page_manager">
+    <ul class="pages">
+      <li class="page-item inactive_page">
+        <a href="nonfiction_literature_first.html">1</a>
+      </li>
+      <li class="page-item inactive_page">
+        <a href="nonfiction_literature_second.html">2</a>
+      </li>
+      <li class="page-item active_page">
+        <a href="nonfiction_literature_third.html">3</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inside">
+      <ul>
+        <span class="text-footer">Магазин</span>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">История магазина</a></li>
+      </ul>
+
+      <div>
+        <span class="text-footer">Контактная информация</span>
+        <ul>
+          <li>+7 998 654 32 45</li>
+          <li>Книжный магазин "Книжный дом"</li>
+          <li>123008, г.Москва, Проспект Вернадского, д.86, стр.1</li>
+          <li>Ежедневно с 9:00 до 22:00</li>
+        </ul>
+        </div>
+      <ul>
+        <span class="text-footer">Мы в социальных сетях</span>
+        <li class="facebook">
+          <a href="#">facebook</a>
+        </li>
+        <li class="vk">
+          <a href="#">vk</a>
+        </li>
+        <li class="instagram">
+          <a href="#">instagram</a>
+        </li>
+        <li class="twitter">
+          <a href="#">
+            twitter
+          </a>
+        </li>
+      </ul>
+
+        <div class="cards">
+          <span class="text-footer">У нас вы можете оплатить<br></span>
+          <img src="../resorces/cards.png">
+        </div>
+    </div>
+</footer>
+<script src="../js/add_to_local.js"></script>
+</body>
+</html> 

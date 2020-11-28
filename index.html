@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>main</title>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <link rel="stylesheet" href="style/main_style.css" media="handheld, screen" type="text/css">
+        
+    </head>
+    <body>
+      <script src="js/topNavigaton.js"> </script>
+      <div class="header" id="headerAction">
+      <a class="imgTop" href="index.html#main" name="main"><img src="resorces/logo.png"></a>
+      <div>
+      <a href="index.html#main" class="active_p">Главная</a>
+      <a href="#">О нас</a>
+      <a href="#">Contact</a>
+      <div class="dropDownList">
+        <button class="drop-button">Книги</button>
+        <div class="dropDownList-content">
+          <a href="html/fiction_first.html">Художественная литература</a>
+          <a href="html/nonfiction_literature_first.html">Нехудожественная литература</a>
+          <a href="html/children_lit_first.html">Детская литература</a>
+          <a href="html/hobby_first.html">Хобби. Досуг</a>
+        </div>
+      </div>
+      <a href="html/delivery.html">Доставка</a>
+      <a href="html/cart.html">Корзина</a>
+      <a href="javascript:void(0);" class="adaptiv-button" onclick="myFunction()">&#9776;</a>
+    </div>
+    
+  </div>
+        
+
+        <div class="main_content">
+            <div class="slogan">
+                <h1>Книжный интернет-магазин "Книжный дом"</h1>
+                <div class="slogan_img">
+                    <img src="resorces/3025.jpg" alt="Слоган">
+                </div>
+            </div>
+
+            <div class="slider-container">
+              <h1>Новостная лента</h1>
+              <div class="slider">  
+              <div class="slider-inside">
+              <img src="resorces/ribbon.jpg" alt="Первый слайд">
+              <div class="text_slide">Мы открылись по адресу Проспект Вернадского 86, с.1!<br>Ждем вас!</div>
+              </div>
+            
+              <div class="slider-inside">
+              <a href="html/delivery.html"><img src="resorces/delivery_img.jpeg" alt="Второй слайд"></a>
+              <a href="html/delivery.html"><div class="text_slide">Новые условия доставки по Москве и России</div></a>
+              </div>
+            
+              <div class="slider-inside">
+              <a href="html/hobby_first.html"><img src="resorces/cooking_img.jpg" alt="Третий слайд"></a>
+              <a href="html/hobby_first.html"> <div class="text_slide">Поставка книг по кулинарии и не только. Скорее ознакомьтесь!</div></a>
+              </div>
+            
+              <a class="prev" onclick="minusSlide()">❮</a>
+              <a class="next" onclick="plusSlide()">❯</a>
+            </div>
+            
+            <div class="after_slider">
+              <span class="dot_slider" onclick="currentSlide(0)"></span>  
+              <span class="dot_slider" onclick="currentSlide(1)"></span>  
+              <span class="dot_slider" onclick="currentSlide(2)"></span>  
+            </div>
+            <script type="text/javascript" src="js/newsSliderScript.js"></script>
+          </div>
+
+            <div class="news">
+                <h1>Новые поступления, заинтересующие вас</h1>
+                <div class="news_catalog">
+                  <div class="news-shadow">
+                    <div class="news-item">
+                          <a class="news_content" href="html/medicine.html#anatomy">
+                            <img src="resorces/medicine/anatomy.jpg" alt="Изображение товара">
+                            <div class="text_item">
+                                <h3>Билич Г. Л.</h3>
+                                <p>530 р.</p>
+                                <p>Анатомия человека</p>
+                            </div>
+                            
+                          </a>
+                      </div>
+                    </div>
+                    <div class="news-shadow">
+                      <div class="news-item">
+                          <a class="news_content" href="html/military.html#secretpower">
+                              <img src="resorces/military/secretpower.jpg" alt="Изображение товара">
+                              <div class="text_item">
+                                <h3>Николаи В.</h3>
+                                <p>840 р.</p>
+                                <p>Тайные силы</p>
+                            </div>
+                          </a>
+                      </div>
+                    </div>
+                    <div class="news-shadow">
+                      <div class="news-item">
+                          <a class="news_content" href="html/military.html#espionage">
+                              <img src="resorces/military/espionage.jpg" alt="Изображение товара">
+                              <div class="text_item">
+                                <h3>Турло С. С.</h3>
+                                <p>400 р.</p>
+                                <p>Шпионаж</p>
+                              </div>
+                          </a>
+                      </div>
+                    </div>
+                    <div class="news-shadow">
+                      <div class="news-item">
+                          <a class="news_content" href="html/detective.html#origin">
+                              <img src="resorces/detective/origin.jpg" alt="Изображение товара">
+                              <div class="text_item">
+                                <h3>Браун Д.</h3>
+                                <p>730 р.</p>
+                                <p>Происхождение</p>
+                              </div>
+                          </a>
+                      </div>
+                    </div>
+                    <div class="news-shadow">
+                      <div class="news-item"> 
+                          <a class="news_content" href="html/poetry.html#woefromwit">
+                              <img src="resorces/poetry/woefromwit.jpg" alt="Изображение товара">
+                              <div class="text_item">
+                              <h3>Грибоедов А. С.</h3>
+                              <p>100 р.</p>
+                              <p>Горе от ума</p>
+                              </div>
+                          </a>
+                      </div>
+                    </div>
+                    <div class="news-shadow">
+                      <div class="news-item">
+                          <a class="news_content" href="html/poems.html#children_poems">
+                              <img src="resorces/poems/children_poems.jpg" alt="Изображение товара">
+                              <div class="text_item">
+                              <h3>Барто А. Л.</h3>
+                              <p>430 р.</p>
+                              <p>Стихи детям</p>
+                              </div>
+                          </a>
+                      </div>
+                    </div>
+                    <div class="news-shadow">
+                      <div class="news-item">
+                          <a class="news_content" href="html/fairyTales.html#bluebird">
+                              <img src="resorces/fairyTales/bluebird.jpg" alt="Изображение товара">
+                              <div class="text_item">
+                              <h3>Метерлинк М.</h3>
+                              <p>220 р..</p>
+                              <p>Синяя птица</p>
+                              </div>
+                          </a>
+                      </div>
+                    </div>
+                    <div class="news-shadow">
+                      <div class="news-item">
+                          <a class="news_content" href="html/adventures.html#researcher">
+                              <img src="resorces/adventures/researcher.jpg" alt="Изображение товара">
+                              <div class="text_item">
+                              <h3>Ранделл К.</h3>
+                              <p>500 р.</p>
+                              <p>Исследователь</p>
+                              </div>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="back_to_top">↑</a>
+            <script type="text/javascript" src="js/toTop.js"></script>
+        </div>
+
+        <footer>
+          <div class="footer-inside">
+              <ul>
+                <span class="text-footer">Магазин</span>
+                <li><a href="#main">Главная</a></li>
+                <li><a href="html/cart.html">Корзина</a></li>
+                <li><a href="html/delivery.html">Доставка</a></li>
+              </ul>
+
+              <div>
+                <span class="text-footer">Контактная информация</span>
+                <ul>
+                  <li>+7 998 654 32 45</li>
+                  <li>Книжный магазин "Книжный дом"</li>
+                  <li>123008, г.Москва, Проспект Вернадского, д.86, стр.1</li>
+                  <li>Ежедневно с 9:00 до 22:00</li>
+                </ul>
+                </div>
+              <ul>
+                <span class="text-footer">Мы в социальных сетях</span>
+                <li class="facebook">
+                  <a href="https://ru-ru.facebook.com/" target="_blank">Facebook</a>
+                </li>
+                <li class="vk">
+                  <a href="https://vk.com/" target="_blank">Vkontakte</a>
+                </li>
+                <li class="instagram">
+                  <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                </li>
+                <li class="twitter">
+                  <a href="https://twitter.com/" target="_blank">
+                    Twitter
+                  </a>
+                </li>
+              </ul>
+
+                <div class="cards">
+                  <span class="text-footer">У нас вы можете оплатить<br></span>
+                  <img src="resorces/cards.png">
+                </div>
+            </div>
+        </footer>
+      </body>
+</html>

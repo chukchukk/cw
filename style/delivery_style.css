@@ -1,0 +1,147 @@
+@import url("main_style.css");
+
+
+
+.delivery-methods{
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.delivery-methods-inside{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . .";
+    justify-items: center;
+    justify-content: space-evenly;
+    padding: 0%;
+    box-shadow:0px 0px 10px 11px rgba(58,62,130,0.4);
+    -webkit-box-shadow:0px 0px 10px 11px rgba(58,62,130,0.4);
+    -moz-box-shadow:0px 0px 10px 11px rgba(58,62,130,0.4);
+}
+.method_delivery{
+    display: flex;
+    margin: 5px;
+    width: 50%;
+    
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: stretch;
+    box-shadow:-3px -3px 2px 0px rgba(58,62,130,0.4) inset;
+    -webkit-box-shadow:-3px -3px 2px 0px rgba(58,62,130,0.4) inset;
+    -moz-box-shadow:-3px -3px 2px 0px rgba(58,62,130,0.4) inset;
+}
+
+.method_delivery img{
+    height: 50%;
+    width: 50%;
+    display:block;
+    margin: 0 auto;
+    transition: .4s;
+}
+.method_delivery:hover img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    background: none;
+}
+
+.title_method{
+    padding-top: 2vh;
+    font-weight: bold;
+}
+
+.description_method{
+    padding: 5%;
+}
+
+.pickup{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0% 3%;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+.pickup iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.payment_inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.payment_item{
+    display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content;
+  gap: 0% 5%;
+  margin: 0 auto 10px auto; 
+}
+
+.payment_item img{
+    width: 70px;
+    height: 70px;
+}
+.payment_item-description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.delivery_title{
+    margin: 0;
+    text-align: left;
+    padding-top: .5em;
+    text-shadow: 2px -3px 1px rgba(163, 150, 150, 0.51);
+}
+.main_title{
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.before_description{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 760px){
+    
+.delivery-methods-inside{
+    display: flex;
+}
+.method_delivery{
+    height: fit-content;
+}
+}
+
+@media screen and (max-width: 420px){
+    
+    .delivery-methods-inside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+    .method_delivery{
+        height: fit-content;
+    }
+    }
+    

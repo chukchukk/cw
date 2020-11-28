@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>Fiction</title>
+<link rel="stylesheet" href="../style/products_style.css" media="handheld, screen" type="text/css">
+</head>
+<body>
+  <script src="../js/topNavigaton.js"> </script>
+  <div class="header" id="headerAction">
+    <a class="imgTop" href="../index.html#main" name="main"><img src="../resorces/logo.png"></a>
+    <div>
+    <a href="../index.html#main" class="active_p">Главная</a>
+    <a href="#">О нас</a>
+    <a href="#">Contact</a>
+    <div class="dropDownList">
+      <button class="drop-button">Книги</button>
+      <div class="dropDownList-content">
+        <a href="fiction_first.html">Художественная литература</a>      
+        <a href="nonfiction_literature_first.html">Нехудожественная литература</a>
+        <a href="children_lit_first.html">Детская литература</a>
+        <a href="hobby_first.html">Хобби. Досуг</a>
+      </div>
+    </div>
+    <a href="delivery.html">Доставка</a>
+    <a href="cart.html">Корзина</a>
+    <a href="javascript:void(0);" class="adaptiv-button" onclick="myFunction()">&#9776;</a>
+  </div>
+  
+</div>
+<a class="back_to_top">↑</a>
+<script type="text/javascript" src="../js/toTop.js"></script>
+
+<div class="main_content">
+  <script src="../js/sideNav.js"></script>
+  <span class="open_bar" onclick="openNavigation()">&#9776;</span>
+  <div id="mySidenav" class="side_bar">
+    <a href="javascript:void(0)" class="close_bar" onclick="closeNavigation()">&times;</a>
+    <a href="detective.html">Детектив</a>
+    <a href="poetry.html">Поэзия. Драматургия</a>
+    <a href="fantasy.html">Фантастика</a>
+  </div>
+  <div class="product_container">
+    <div class="product">
+      <div class="product_inside">
+        <img src="../resorces/poetry/sonnet.jpg" alt="Изображение" height="80%" width="100%">
+        <span class="author_prod">Петрарка Ф.</span>
+        <span class="title_prod">Избранные сонеты и канцоны</span>
+        <span class="price_prod">540 р.</span>
+        <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="24">
+        <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="24">
+      </div>
+    </div>
+    <div class="product">
+      <div class="product_inside">
+        <img src="../resorces/fantastic/institute.jpg" alt="Изображение" height="80%" width="100%">
+        <span class="author_prod">Кинг С.</span>
+        <span class="title_prod">Институт</span>
+        <span class="price_prod">634 р.</span>
+        <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="25">
+        <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="25">
+      </div>
+    </div>
+    <div class="product">
+      <div class="product_inside">
+        <img src="../resorces/detective/therapist.jpg" alt="Изображение" height="80%" width="100%">
+        <span class="author_prod">Флод Х.</span>
+        <span class="title_prod">Терапевт</span>
+        <span class="price_prod">400 р.</span>
+        <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="26">
+        <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="26">
+      </div>
+    </div>
+    <div class="product">
+      <div class="product_inside">
+        <img src="../resorces/detective/witchElm.jpg" alt="Изображение" height="80%" width="100%">
+        <span class="author_prod">Френч Т.</span>
+        <span class="title_prod">Ведьмин вяз</span>
+        <span class="price_prod">570 р.</span>
+        <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="27">
+        <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="27">
+      </div>
+    </div>
+    <div class="product">
+      <div class="product_inside">
+        <img src="../resorces/fantastic/mansion.jpg" alt="Изображение" height="80%" width="100%">
+        <span class="author_prod">Шеннон С.</span>
+        <span class="title_prod">Обитель Апельсинового Дерева</span>
+        <span class="price_prod">715 р.</span>
+        <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="28">
+        <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="28">
+      </div>
+    </div>
+    <div class="product">
+      <div class="product_inside">
+        <img src="../resorces/detective/patient.jpg" alt="Изображение" height="80%" width="100%">
+        <span class="author_prod">Михаэлидес А.</span>
+        <span class="title_prod">Безмолвный пациент</span>
+        <span class="price_prod">350 р.</span>
+        <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="29">
+        <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="29">
+      </div>
+    </div>
+    <div class="product">
+      <div class="product_inside">
+        <img src="../resorces/fantastic/warehouse.jpg" alt="Изображение" height="80%" width="100%">
+        <span class="author_prod">Харт Р.</span>
+        <span class="title_prod">Склад. The Warehouse</span>
+        <span class="price_prod">420 р.</span>
+        <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="30">
+        <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="30">
+      </div>
+    </div>
+    <div class="product">
+      <div class="product_inside">
+        <img src="../resorces/fantastic/grimy.jpg" alt="Изображение" height="80%" width="100%">
+        <span class="author_prod">Белянин А. О.</span>
+        <span class="title_prod">Взять чумазого!</span>
+        <span class="price_prod">500 р.</span>
+        <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="31">
+        <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="31">
+      </div>
+    </div>
+    <div class="product">
+      <div class="product_inside">
+        <img src="../resorces/poetry/symbolbook.jpg" alt="Изображение" height="80%" width="100%">
+        <span class="author_prod">Бальмонт К. Д.</span>
+        <span class="title_prod">Книга символов</span>
+        <span class="price_prod">620 р.</span>
+        <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="32">
+        <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="32">
+      </div>
+    </div>
+    <div class="product">
+      <div class="product_inside">
+        <img src="../resorces/fantastic/wine.jpg" alt="Изображение" height="80%" width="100%">
+        <span class="author_prod">Брэдбери Р. Д.</span>
+        <span class="title_prod">Вино из одуванчиков</span>
+        <span class="price_prod">205 р.</span>
+        <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="33">
+        <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="33">
+      </div>
+    </div>
+    <div class="product">
+      <div class="product_inside">
+        <img src="../resorces/poetry/runboy.jpg" alt="Изображение" height="80%" width="100%">
+        <span class="author_prod">Лимонов Э. В.</span>
+        <span class="title_prod">Мальчик, беги!</span>
+        <span class="price_prod">82 р.</span>
+        <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="34">
+        <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="34">
+      </div>
+    </div>
+    <div class="product">
+      <div class="product_inside">
+        <img src="../resorces/fantastic/darkgorges.jpg" alt="Изображение" height="80%" width="100%">
+        <span class="author_prod">Морган Р.</span>
+        <span class="title_prod">Темные ущелья</span>
+        <span class="price_prod">695 р.</span>
+        <input type="button" class="buy_btn" title="В корзину" onclick="buildPosition(value)" value="35">
+        <input class="toProduct" type="button" onclick="toProduct(name)" value="Перейти к товару" name="35">
+      </div>
+    </div>
+  </div>
+  
+  <div class="page_manager">
+    <ul class="pages">
+      <li class="page-item inactive_page">
+        <a href="fiction_first.html">1</a>
+      </li>
+      <li class="page-item inactive_page">
+        <a href="fiction_second.html">2</a>
+      </li>
+      <li class="page-item active_page">
+        <a href="fiction_third.html">3</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inside">
+      <ul>
+        <span class="text-footer">Магазин</span>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">История магазина</a></li>
+      </ul>
+
+      <div>
+        <span class="text-footer">Контактная информация</span>
+        <ul>
+          <li>+7 998 654 32 45</li>
+          <li>Книжный магазин "Книжный дом"</li>
+          <li>123008, г.Москва, Проспект Вернадского, д.86, стр.1</li>
+          <li>Ежедневно с 9:00 до 22:00</li>
+        </ul>
+        </div>
+      <ul>
+        <span class="text-footer">Мы в социальных сетях</span>
+        <li class="facebook">
+          <a href="#">facebook</a>
+        </li>
+        <li class="vk">
+          <a href="#">vk</a>
+        </li>
+        <li class="instagram">
+          <a href="#">instagram</a>
+        </li>
+        <li class="twitter">
+          <a href="#">
+            twitter
+          </a>
+        </li>
+      </ul>
+
+        <div class="cards">
+          <span class="text-footer">У нас вы можете оплатить<br></span>
+          <img src="../resorces/cards.png">
+        </div>
+    </div>
+</footer>
+<script src="../js/add_to_local.js"></script>
+</body>
+</html> 
