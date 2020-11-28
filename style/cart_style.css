@@ -1,5 +1,9 @@
 @import url("main_style.css");
 
+input[type="text"]:required {
+	border: 1px solid red; /* Красная рамка для обязательных полей */
+}
+
 #cart_inside{
     padding: 15px;
 	min-height: 90vh;
@@ -245,5 +249,34 @@ input[type="text"]:focus{
 	}
 	#send{
 		width: auto;
+	}
+}
+
+.delete_prod{
+	background-color: #ff324e;
+	transition: 0.1s linear;
+	margin-top: 0.5em;
+	color: white;
+	border: none;
+	outline: none;
+	letter-spacing: 1px;
+}
+.delete_prod:hover{
+	cursor: pointer;
+	transform: scale(1.2);
+}
+.delete_prod:active{
+	cursor: pointer;
+	box-shadow:0px 0px 5px 5px rgba(0,0,0,0.65);
+	-webkit-box-shadow:0px 0px 5px 5px rgba(0,0,0,0.65);
+	-moz-box-shadow:0px 0px 5px 5px rgba(0,0,0,0.65);
+	animation: rotation 3s infinite
+}
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
 	}
 }

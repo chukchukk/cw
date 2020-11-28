@@ -23,7 +23,6 @@ try{
             left_block.className = "left_block";
 
             var img = document.createElement("img");
-            console.log(key);
             img.src = temp.img;
 
             var text_left = document.createElement("div");
@@ -44,6 +43,17 @@ try{
             var price_cart = document.createElement("span");
             price_cart.className = "price_cart";
 
+            var delete_prod = document.createElement("input");
+            delete_prod.className = "delete_prod";
+            delete_prod.type = "button";
+            delete_prod.value = "Удалить";
+            delete_prod.name = temp.position;
+            delete_prod.onclick = function (){
+              if(confirm("Подтердите удаление товара")){
+                localStorage.removeItem(this.name);
+                document.location.reload();
+              }
+            }
 
             price_cart.textContent = temp.price * temp.number + " р.";
             fullPrice += temp.price * temp.number;
@@ -51,6 +61,7 @@ try{
 
             right_block.appendChild(number_cart);
             right_block.appendChild(price_cart);
+            right_block.appendChild(delete_prod);
 
 
             title_cart.textContent = temp.title;
