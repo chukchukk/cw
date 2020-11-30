@@ -47,6 +47,7 @@
       <change beforePath="$PROJECT_DIR$/html/poetry.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/poetry.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/solo_product_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/solo_product_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,7 @@
       <updated>1606559310981</updated>
       <workItem from="1606559312126" duration="862000" />
       <workItem from="1606565640460" duration="16136000" />
-      <workItem from="1606592751599" duration="3906000" />
+      <workItem from="1606592751599" duration="4372000" />
     </task>
     <servers />
   </component>
