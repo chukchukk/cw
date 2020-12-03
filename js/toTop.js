@@ -1,27 +1,21 @@
 (function() {
-    
-    var button = document.querySelector('.back_to_top');
-  
-    window.addEventListener('scroll', scrolling);
-    button.addEventListener('click', backToTop);
-
-    function scrolling() {
-      var scrolled = window.pageYOffset;
-      var clHeight = document.documentElement.clientHeight / 2;
-  
-      if (scrolled > clHeight ) {
-        button.classList.add('back_to_top-show');
-      }
-      if (scrolled < clHeight ) {
-        button.classList.remove('back_to_top-show');
-      }
+    var buttonToTop = document.querySelector('.back_to_top');
+    buttonToTop.addEventListener('click', toTop);
+    window.addEventListener('scroll', moving);
+    function moving() {
+        var height_client = document.documentElement.clientHeight / 2;
+        var scrolledPage = window.pageYOffset;
+        if (scrolledPage > height_client ) {
+            buttonToTop.classList.add('show');
+        }
+        if (scrolledPage < height_client ) {
+            buttonToTop.classList.remove('show');
+        }
     }
-  
-    function backToTop() {
-      if (window.pageYOffset > 0) {
-        window.scrollBy(0, -15);
-        setTimeout(backToTop, 0);
-      }
+    function toTop() {
+        if (window.pageYOffset > 0) {
+            window.scrollBy(0, -15);
+            setTimeout(backToTop, 0);
+        }
     }
-  
-  })();
+})();
