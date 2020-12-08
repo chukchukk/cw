@@ -481,7 +481,10 @@ h1{
   display: block;
   opacity: 0.75;
 }
-
+.show {
+  display: block;
+  opacity: 0.75;
+}
 
 
 .header {
